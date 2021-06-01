@@ -1,5 +1,6 @@
-import Cookies from 'js-cookie'
 import axios, { AxiosResponse } from 'axios'
+
+const Cookies = require('js-cookie')
 
 const API = "https://passport-test-api.herokuapp.com/user/profile"
 
